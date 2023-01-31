@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:20px 25px;
+    padding: 6px;
+    margin:30px 30px;
+    font-size: x-large;
+    font-family: cursive ;
+}
+.image{
+    background-image: url('contactformimage.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-family: cursive;
+    margin:10px 380px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: #08c7bd;
+}
+h3{
+    font-family: cursive;
+    margin:25px -5px;
+    font-size: 30px;
+    color: #bd3a59;
+}
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="email"],
+textarea
+{
+   width: 60%;
+   padding: 10px;
+   background-color: rgb(199, 233, 233);
+   margin: 10px;
+   border-radius: 7px;
+   cursor:pointer;
+}
+h1:hover{
+     background-color: #bd3a59; 
+     color: #ede1e8;
+}
+.boxcolor{
+    margin: 120px 100px;
+    background-color: #ede1e87a;
+    padding: 60px 50px;
+    border-radius: 10px;
+}
+.submit{
+    color: brown;
+    background-color: #35fc74;
+}
+.submit:hover{
+     background-color: #0ba23b;
+     color: #f0f6f2;
+}
+input[type="submit"]{
+    padding:8px;
+    margin: 8px;
+    border-radius: 6px;
+    cursor:pointer;
+}
